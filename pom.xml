@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kiwi.kb</groupId>
-    <artifactId>parent</artifactId>
+    <artifactId>kb</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <parent>
@@ -14,9 +14,9 @@
         <version>2.1.4.RELEASE</version>
     </parent>
     <modules>
-        <module>cloud</module>
-        <module>common</module>
-        <module>boot</module>
+        <module>kb-cloud</module>
+        <module>kb-common</module>
+        <module>kb-test</module>
     </modules>
 
 
